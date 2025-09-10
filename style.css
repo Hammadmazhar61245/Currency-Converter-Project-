@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    background-color: #ff8c00;
+    padding: 20px;
+}
+
+.Container { 
+    width: 400px; 
+    background-color: #fff; 
+    padding: 30px; 
+    border-radius: 15px; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+} 
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+form { 
+    margin: 2rem 0 1rem 0; 
+} 
+
+.Amount p {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+form select, 
+button, 
+input { 
+    width: 100%; 
+    border: none; 
+    outline: none; 
+    border-radius: 8px; 
+} 
+
+form input { 
+    border: 1px solid #ddd; 
+    font-size: 1.1rem; 
+    height: 50px; 
+    padding: 0 15px; 
+    transition: border-color 0.3s;
+} 
+
+form input:focus {
+    border-color: #ff8c00;
+    box-shadow: 0 0 0 2px rgba(255, 140, 0, 0.2);
+}
+
+.dropdown {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 2rem; 
+    gap: 10px;
+} 
+
+.from, .to {
+    flex: 1;
+}
+
+.from p, .to p {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.select-container {
+    display: flex; 
+    align-items: center;
+    border-radius: 8px; 
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    background: #f9f9f9;
+    height: 50px;
+}
+
+.select-container img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.select-container select {
+    background: transparent;
+    font-size: 1rem;
+    cursor: pointer;
+    height: 100%;
+    width: auto;
+    flex: 1;
+}
+
+.fa-solid {
+    font-size: 20px;
+    color: #ff8c00;
+    margin-top: 25px;
+}
+
+.msg {
+    margin: 25px 0;
+    padding: 12px;
+    background: #f3f3f3;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 500;
+    color: #333;
+}
+
+button {
+    height: 50px;
+    background: #ff8c00;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #e67e00;
+}
